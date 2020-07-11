@@ -20,7 +20,6 @@ int checkTheConnection(vector<int>& sections) {
 	queue<int> q;
 	int ret = 0;
 
-	//section은 picked
 	for (int i = 0; i < sections.size(); ++i)
 		checked[sections[i]] = true;
 
